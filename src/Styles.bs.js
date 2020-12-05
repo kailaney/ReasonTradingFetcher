@@ -1,0 +1,7 @@
+'use strict';
+
+
+var style = "\n  body {\n    background-color: #2F4F4F;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n  }\n  button {\n    background-color: white;\n    color: black;\n    padding: 8px;\n    position: center;\n    border: 2px solid #2F4F4F;\n    border-radius: 3px;\n    margin: auto;\n    margin-top: 5px;\n    display: block;\n    font-size: 16px;\n  }\n  input{\n    width: 25%;\n    font-size: 20px;\n    padding: 10px;\n    border: 1px solid #2F4F4F;\n    border-radius: 10px;\n    display: block;\n    margin: auto;\n    position: center;\n  }\n  ::placeholder {\n    color: gray;\n    font-size: 15px;\n    text-align: left;\n  }\n  .parent {\n    display: flex;\n  }\n  .lalign {\n    margin-left: 65%;\n    margin-right: 5px;\n  }\n  .ralign {\n    flex-grow: 1;\n  }\n  li {\n    margin: 10px 0;\n  }\n  a:link, a:visited {\n    background-color: white;\n    border: 1px solid #2F4F4F;\n    color: black;\n    padding: 14px 25px;\n    text-align: center; \n    text-decoration: none;\n    display: inline-block;\n  }\n  .container {\n    margin: 12px 0px;\n    box-shadow: 0px 4px 16px rgb(200, 200, 200);\n    width: 720px;\n    border-radius: 12px;\n    font-family: sans-serif;\n  }\n  .containerTitle {\n    background-color: rgb(242, 243, 245);\n    border-radius: 12px 12px 0px 0px;\n    padding: 12px;\n    font-weight: bold;\n  }\n  .containerContent {\n    background-color: white;\n    padding: 16px;\n    border-radius: 0px 0px 12px 12px;\n  }\n";
+
+exports.style = style;
+/* No side effect */
