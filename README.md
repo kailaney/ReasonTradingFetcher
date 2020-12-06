@@ -1,7 +1,7 @@
-# Lyrics Finder
+# Trading Data Fetcher in Reason
 
-A reasonReact Web App that uses the [lyrics.ovh API](https://lyricsovh.docs.apiary.io/) to search song lyrics.
-![lyrics-finder](https://raw.githubusercontent.com/carlosfrodrigues/lyrics-finder/master/lyrics-finder.gif)
+Find financial information about a company with its ticker.
+![Trading Data Fetcher Demo](demo-gif.gif)
 ## how to run
 
 ```sh
